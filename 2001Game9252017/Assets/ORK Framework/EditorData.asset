@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -733530270, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: EditorData
+  m_EditorClassIdentifier: 
+  lastProject: {fileID: 11400000, guid: f1024da789327aa42be0e5a39a2dc170, type: 2}
+  section: 0
+  subSection: 0
+  tabIndex: 0
+  scrollY: 0
+  helpDrag: 220
+  subSectionDrag: 250
+  tabListDrag: 250
+  formulaDrag: 250
+  aiDrag: 400
+  eventDrag: 400
+  guiEditorDrag: 500
+  updateEvents: 1
+  eventUpdateFolder: 
+  updatePrefabs: 0
+  updateScenes: 0
+  sceneUpdate: 
+  eventAsset:
+  - {fileID: 11400000, guid: d3696a421b8958b428c6756f09930494, type: 2}
+  - {fileID: 11400000, guid: e5c150d71bd03d54782b9889b152a220, type: 2}
+  - {fileID: 11400000, guid: 9507ab4fc12e54c47be47f73919fd0f0, type: 2}
+  - {fileID: 11400000, guid: 986eeaf940e3b284a9cf5f625a5eb1ff, type: 2}
+  - {fileID: 11400000, guid: 818ca7656624bf643b3b075d7d0ea7ae, type: 2}
+  - {fileID: 11400000, guid: 92de0c94ec7a4fd4eb31f0299fd35b61, type: 2}
+  - {fileID: 11400000, guid: cc65aba271850324a9d2c131fd0ac173, type: 2}
+  - {fileID: 11400000, guid: 9543fbce7df5222418b18fb7dd5952d4, type: 2}
+  - {fileID: 11400000, guid: bcabe4a70481eab4abfb19b60a627e51, type: 2}
+  gameEventAsset:
+  - {fileID: 11400000, guid: d3696a421b8958b428c6756f09930494, type: 2}
+  - {fileID: 11400000, guid: 986eeaf940e3b284a9cf5f625a5eb1ff, type: 2}
+  - {fileID: 11400000, guid: 92de0c94ec7a4fd4eb31f0299fd35b61, type: 2}
+  - {fileID: 11400000, guid: bcabe4a70481eab4abfb19b60a627e51, type: 2}
+  moveEventAsset:
+  - {fileID: 11400000, guid: cc65aba271850324a9d2c131fd0ac173, type: 2}
+  battleEventAsset:
+  - {fileID: 11400000, guid: e5c150d71bd03d54782b9889b152a220, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 9507ab4fc12e54c47be47f73919fd0f0, type: 2}
+  - {fileID: 11400000, guid: 818ca7656624bf643b3b075d7d0ea7ae, type: 2}
+  - {fileID: 11400000, guid: 9543fbce7df5222418b18fb7dd5952d4, type: 2}
+  battleStartEventAsset:
+  - {fileID: 0}
+  battleEndEventAsset: []
+  phaseChangeEventAsset: []
+  variablesDefined: []
+  variablesEditor:
+  - weaponAttackSpeed
+  - isEnemyAttacking
+  - isUsingOnlyAttack01
+  variablesEvent:
+  - weaponAttackSpeed
+  - isUsingOnlyAttack01
+  - test1
+  - lockOnOrk
+  - True
+  - movementHorizontal
+  - '>0'
+  - 1
+  - -1
+  - 0
+  variablesScene: []

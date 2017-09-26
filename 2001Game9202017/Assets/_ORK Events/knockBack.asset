@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -988360344, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: knockBack
+  m_EditorClassIdentifier: 
+  time: 9/20/2017 6:58:12 PM
+  version: 2.12.0
+  data:
+    name: battleEvent
+    xmlData: "<battleEvent startIndex=\"2\" >\n\t<_float noBlockChance=\"100\" />\n\t<_bool
+      blockMoveAI=\"True\" blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"False\"
+      resetCam=\"False\" resetLook=\"False\" calcNeeded=\"False\" clearBlocks=\"False\"
+      autoDamageDealers=\"True\" mainCamera=\"True\" cameraTag=\"False\" ignoreCamBlock=\"False\"
+      destroyPrefabs=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
+      19 19 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      570 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"0\" guiBoxID=\"2\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
+      clipID=\"0\" cancelNext=\"-1\" >\n\t\t\t\t\t<_bool waitClose=\"True\" useSpeaker=\"False\"
+      atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
+      useTitle=\"False\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
+      onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Test
+      Fail]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</0>\n\t\t\t<1
+      origin=\"0\" nextFail=\"0\" next=\"3\" >\n\t\t\t\t<_bool useObject=\"True\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      513 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CheckGameVariableStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<condition
+      needed=\"0\" >\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</condition>\n\t\t\t</1>\n\t\t\t<2
+      changeType=\"3\" combatantScope=\"0\" next=\"1\" >\n\t\t\t\t<_bool allCombatants=\"False\"
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      266 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SelectCombatantStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<selectedKey
+      type=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<value><![CDATA[isUsingOnlyAttack01]]></value>\n\t\t\t\t\t</_string>\n\t\t\t\t</selectedKey>\n\t\t\t\t<usedObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t</2>\n\t\t\t<3
+      speedType=\"1\" interpolation=\"0\" next=\"-1\" >\n\t\t\t\t<_float timeBetween=\"0\"
+      distance=\"0\" secureTime=\"0.5\" speed=\"5\" />\n\t\t\t\t<_bool waitBetween=\"True\"
+      toObject=\"False\" useCenter=\"False\" localSpace=\"False\" localPosition=\"True\"
+      move=\"False\" wait=\"False\" ignoreHeightDistance=\"True\" useController=\"True\"
+      applyGravity=\"True\" face=\"False\" ignoreRadius=\"False\" useSpeed=\"False\"
+      secureMove=\"False\" stopAtTarget=\"False\" followPosition=\"True\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<offset 0 0
+      0 />\n\t\t\t\t\t<nodePosition 190 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangePositionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<moveObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</moveObject>\n\t\t\t\t<position
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t<_float xMin=\"0\" xMax=\"0\" yMin=\"0\"
+      yMax=\"0\" zMin=\"0\" zMax=\"0\" />\n\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<value
+      0 0 -2 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t\t\t\t</_string>\n\t\t\t\t</position>\n\t\t\t</3>\n\t\t</step>\n\t</_subarrays>\n</battleEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

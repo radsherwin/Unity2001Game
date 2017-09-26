@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Tutorial Resources/Scenes/1 Town.unity
+  isLoaded: 1
+  isActive: 1
